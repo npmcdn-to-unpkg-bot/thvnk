@@ -1,2 +1,2 @@
 # thvnk
-spatial informatics
+experiments in visual thinking
