@@ -55,6 +55,20 @@
 		<p><small>Here is a footnote.</small></p>
 	
 	</div>
+	
+	<div data-bind="template: { name: 'card-template', foreach: cards }">
+		
+	<script type="text/html" id="card-template">
+	
+	<div id="ko-card" class="card">
+		
+		<h1 data-bind="value: title"></h1>
+
+		<p data-bind="value: body"></p>
+	
+	</div>
+	
+	</script>
 
 </div>
 
